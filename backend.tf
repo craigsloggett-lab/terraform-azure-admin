@@ -2,11 +2,11 @@
 
 terraform {
   cloud {
-    organization = "UPDATE_ME"
+    organization = "redpanda-data"
 
     workspaces {
-      project = "UPDATE_ME"
-      name    = "UPDATE_ME"
+      project = "forward-deployed-engineering"
+      name    = "fde-azure-admin"
     }
   }
 }
