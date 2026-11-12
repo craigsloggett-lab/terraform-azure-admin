@@ -24,6 +24,7 @@ An infrastructure as code repository to manage my Azure lab.
    terraform apply
    ```
 
+<!-- rumdl-disable MD060 -->
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -77,3 +78,4 @@ No inputs.
 | <a name="output_subscription_display_name"></a> [subscription\_display\_name](#output\_subscription\_display\_name) | The display name of the subscription the azurerm provider is configured for. |
 | <a name="output_subscription_id"></a> [subscription\_id](#output\_subscription\_id) | The ID of the subscription the azurerm provider is configured for. |
 <!-- END_TF_DOCS -->
+<!-- rumdl-enable MD060 -->
