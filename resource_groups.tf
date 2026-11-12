@@ -3,7 +3,8 @@ resource "azurerm_resource_group" "channel_bridge_teams_adapter_dev" {
   location = "eastus"
 
   tags = {
-    owner   = data.azuread_user.craig_sloggett.mail_nickname
-    purpose = "channel-bridge-teams-adapter-dev"
+    app   = "channel-bridge-teams-adapter"
+    env   = "dev"
+    owner = data.azuread_user.craig_sloggett.mail_nickname
   }
 }

@@ -1,5 +1,5 @@
-resource "azuread_application" "channel_bridge_teams_adapter" {
-  display_name     = "sp-channel-bridge-teams-adapter"
+resource "azuread_application" "channel_bridge_teams_adapter_dev" {
+  display_name     = "channel-bridge-teams-adapter-dev"
   sign_in_audience = "AzureADMyOrg"
   owners           = [data.azuread_user.craig_sloggett.object_id]
 
