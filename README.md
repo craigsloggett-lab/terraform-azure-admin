@@ -56,6 +56,8 @@ No inputs.
 | [azuread_application.channel_bridge_teams_adapter](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application) | resource |
 | [azuread_service_principal.channel_bridge_teams_adapter](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal) | resource |
 | [azuread_service_principal_delegated_permission_grant.channel_bridge_teams_adapter_msgraph](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_delegated_permission_grant) | resource |
+| [azurerm_bot_service_azure_bot.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/bot_service_azure_bot) | resource |
+| [azurerm_resource_group.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/resource_group) | resource |
 | [azuread_application_published_app_ids.well_known](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/application_published_app_ids) | data source |
 | [azuread_client_config.current](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/client_config) | data source |
 | [azuread_service_principal.msgraph](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal) | data source |
