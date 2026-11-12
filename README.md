@@ -47,7 +47,9 @@ No modules.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+| ---- | ----------- | ---- | ------- | :------: |
+| <a name="input_channel_bridge_teams_adapter_dev_messaging_endpoint"></a> [channel\_bridge\_teams\_adapter\_dev\_messaging\_endpoint](#input\_channel\_bridge\_teams\_adapter\_dev\_messaging\_endpoint) | The HTTPS messaging endpoint the dev Azure Bot delivers activities to (for example, a dev tunnel URL ending in `/teams/v1/playground/messages`. | `string` | n/a | yes |
 
 ## Resources
 
@@ -57,6 +59,7 @@ No inputs.
 | [azuread_application.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application) | resource |
 | [azuread_service_principal.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal) | resource |
 | [azuread_service_principal_delegated_permission_grant.channel_bridge_teams_adapter_dev_msgraph](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_delegated_permission_grant) | resource |
+| [azurerm_bot_channel_ms_teams.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/bot_channel_ms_teams) | resource |
 | [azurerm_bot_service_azure_bot.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/bot_service_azure_bot) | resource |
 | [azurerm_policy_definition.deny_botservices_sku_not_f0](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/policy_definition) | resource |
 | [azurerm_resource_group.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/resource_group) | resource |
