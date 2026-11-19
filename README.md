@@ -32,14 +32,14 @@ An infrastructure as code repository to manage my Azure lab.
 | ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.7 |
 | <a name="requirement_azuread"></a> [azuread](#requirement\_azuread) | 3.10.0 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 5.13.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 5.14.0 |
 
 ## Providers
 
 | Name | Version |
 | ---- | ------- |
 | <a name="provider_azuread"></a> [azuread](#provider\_azuread) | 3.10.0 |
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 5.13.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 5.14.0 |
 
 ## Modules
 
@@ -59,18 +59,18 @@ No modules.
 | [azuread_application.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application) | resource |
 | [azuread_service_principal.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal) | resource |
 | [azuread_service_principal_delegated_permission_grant.channel_bridge_teams_adapter_dev_msgraph](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_delegated_permission_grant) | resource |
-| [azurerm_bot_channel_ms_teams.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/bot_channel_ms_teams) | resource |
-| [azurerm_bot_service_azure_bot.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/bot_service_azure_bot) | resource |
-| [azurerm_policy_definition.deny_botservices_sku_not_f0](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/policy_definition) | resource |
-| [azurerm_resource_group.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/resource_group) | resource |
-| [azurerm_subscription_policy_assignment.allowed_resource_types](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/subscription_policy_assignment) | resource |
-| [azurerm_subscription_policy_assignment.deny_botservices_sku_not_f0](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/subscription_policy_assignment) | resource |
+| [azurerm_bot_channel_ms_teams.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/bot_channel_ms_teams) | resource |
+| [azurerm_bot_service_azure_bot.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/bot_service_azure_bot) | resource |
+| [azurerm_policy_definition.deny_botservices_sku_not_f0](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/policy_definition) | resource |
+| [azurerm_resource_group.channel_bridge_teams_adapter_dev](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/resource_group) | resource |
+| [azurerm_subscription_policy_assignment.allowed_resource_types](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/subscription_policy_assignment) | resource |
+| [azurerm_subscription_policy_assignment.deny_botservices_sku_not_f0](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/subscription_policy_assignment) | resource |
 | [azuread_application_published_app_ids.well_known](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/application_published_app_ids) | data source |
 | [azuread_client_config.current](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/client_config) | data source |
 | [azuread_service_principal.msgraph](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal) | data source |
 | [azuread_user.craig_sloggett](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user) | data source |
-| [azurerm_policy_definition_built_in.allowed_resource_types](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/policy_definition_built_in) | data source |
-| [azurerm_subscription.current](https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/subscription) | data source |
+| [azurerm_policy_definition_built_in.allowed_resource_types](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/policy_definition_built_in) | data source |
+| [azurerm_subscription.current](https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/subscription) | data source |
 
 ## Outputs
 
